@@ -1,1 +1,17 @@
-
+int main() {
+    int a;
+    int b;
+    int c;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+    
+    if (a + b == c) {
+        printf("+");
+    } else if (a - b == c) {
+        printf("-");
+    } else if (a * b == c) {
+        printf("*");
+    }
+    return 0;
+}
