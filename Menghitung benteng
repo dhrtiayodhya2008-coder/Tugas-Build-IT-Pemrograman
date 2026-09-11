@@ -1,0 +1,16 @@
+int main() {
+    int n;
+    scanf("%d", &n);
+    int ulang = n;
+    int i = 0;
+    int hasil = 1;
+    
+    // n!/k!(n-k)! . n!/(n-k)!
+    // faktorial
+    while (i < ulang) {
+        i += 1;
+        hasil = (i) * hasil;
+        printf("%d\n", hasil);
+    }
+ return 0;
+}
